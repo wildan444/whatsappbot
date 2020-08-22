@@ -20,7 +20,7 @@ until you have ubuntu like this
 then ..
 Clone this project
 
-```bash
+```zsh
 > git clone https://github.com/mhankbarbar/termux-whatsapp-bot
 > cd termux-whatsapp-bot
 
@@ -28,23 +28,23 @@ Clone this project
 
 Install the dependencies:
 
-```bash
+```zsh
 > npm i
 ```
 
 
 
 ### Usage
-1. run the Whatsapp bot
+run the Whatsapp bot
 
-```bash
+```zsh
 > npm start
 ```
 
 after running it you need to scan the qr
 
-### Fitur
-ketik !menu atau !help untuk menampilkan fitur
+### Features
+Type !menu or !help for show feature
 
 Feature | Status |
 | -------------- | ------------- |
@@ -54,8 +54,7 @@ Feature | Status |
 | Text to voivce | Oke |
 | Nhentai | Oke |
 | Horoscope menu | Oke |
-
-dll
+| And | Others |
 
 ### Owner Commands
 ( Only owner group! )
