@@ -59,9 +59,9 @@ dll
 ### Owner Commands
 ( Only owner group! )
 
-› `!promote`: Menaikkan pangkat member menjadi admin 
-› `!demote`: Menurunkan pangkat admin menjadi member
-› `!kick`: Mengeluarkan member group
-› `!add`: Menambahkan member group
-› `!deskripsi`: Mengubah desc group
+› `!promote`: Menaikkan pangkat member menjadi admin<br>
+› `!demote`: Menurunkan pangkat admin menjadi member<br>
+› `!kick`: Mengeluarkan member group<br>
+› `!add`: Menambahkan member group<br>
+› `!deskripsi`: Mengubah desc group<br>
 › `!subject`: Mengubah title group
