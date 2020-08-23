@@ -1,6 +1,5 @@
 ## Whatsapp Bot With Some Unique Features but it can running with termux
-[whatsapp-web.js](https://github.com/pedrolopez/whatsapp-web.js)<br>
-
+[`whatsapp-web.js`](https://github.com/pedrolopez/whatsapp-web.js)
 ![Fork](https://img.shields.io/github/forks/mhankbarbar/termux-whatsapp-bot?style=social)
 
 
