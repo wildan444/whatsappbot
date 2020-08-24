@@ -43,16 +43,17 @@ run the Whatsapp bot
 after running it you need to scan the qr
 
 ### Features
-Type !menu or !help for show feature
+Type <b>!menu</b> or <b>!help</b> for show feature
 
 Feature | Status |
 | -------------- | ------------- |
 | Instagram download | Oke |
 | WhatsAnime | Oke |
 | Brainly | Oke |
-| Text to voivce | Oke |
+| Text to voice | Oke |
 | Nhentai | Oke |
 | Horoscope menu | Oke |
+| ytmp3 download | Oke |
 | And | Others |
 
 ### Owner Commands
@@ -62,5 +63,5 @@ Feature | Status |
 › `!demote`: Menurunkan pangkat admin menjadi member<br>
 › `!kick`: Mengeluarkan member group<br>
 › `!add`: Menambahkan member group<br>
-› `!deskripsi`: Mengubah desc group<br>
+› `!desk`: Mengubah desc group<br>
 › `!subject`: Mengubah title group

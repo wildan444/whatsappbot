@@ -272,10 +272,10 @@ const botTol2 = () => {
         }
 	text += "╰───「 Success 」"
         chat.sendMessage(text, { mentions });
-    } else if (msg.body.startsWith('!deskripsi ')) {
+    } else if (msg.body.startsWith('!desk ')) {
         if (chat.isGroup) {
             if (dariGC.replace('@c.us', '') == chat.owner.user || dariGC.replace('@c.us','') == '6285892766102') {
-                let title = msg.body.split("!deskripsi ")[1]
+                let title = msg.body.split("!desk ")[1]
                 chat.setDescription(title)
             } else {
                 botTol()
@@ -1054,7 +1054,7 @@ Ketikan *!rules* untuk melihat rules memakai bot ini
 ├≽️ !promote
 ├≽️ !demote
 ├≽️ !add
-├≽️ !deskripsi
+├≽️ !desk
 ├≽️ !owner
 ╰─────────
 
@@ -1065,7 +1065,7 @@ Ketikan *!rules* untuk melihat rules memakai bot ini
 » !add 0858xxxxx = Menambahkan member group!
 » !promote <@tag> = Menaikkan pangkat member!
 » !demote <@tag> = Menurunkan pangkat admin!
-» !deskripsi <optional> = Ganti deskripsi group!
+» !desk <optional> = Ganti deskripsi group!
 » !owner = Melihat siapa owner group!
  `);
 
@@ -1085,7 +1085,7 @@ Ketikan *!rules* untuk melihat rules memakai bot ini
 [ Keterangan ]
 
 » !randomanime = Mengirim gambar anime [ random ]
-» !wait = Menampilkan informasi anime, kirim foro dengan caption *!wait*
+» !wait = Menampilkan informasi anime, kirim foto dengan caption *!wait*
 » !translate = Menerjemahkan kedalam bahasa yang diinginkan
 » !ttd id/en/jp/ar = Mengubah teks kedalam suara. \ncontoh :\n!tts id halo jagoan!
 » !lirik <optional> = Menampilkan lirik lagu\ncontoh : \n!lirik aku bukan boneka
