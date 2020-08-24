@@ -1,5 +1,5 @@
 ## Whatsapp Bot With Some Unique Features but it can running with termux
-![Commit](https://img.shields.io/github/commit-activity/y/mhankbarbar/termux-whatsapp-bot?style=flat-square)
+[`whatsapp-web.js`](https://github.com/pedrolopez/whatsapp-web.js)
 ![Fork](https://img.shields.io/github/forks/mhankbarbar/termux-whatsapp-bot?style=social)
 
 
@@ -19,7 +19,7 @@ until you have ubuntu like this
 then ..
 Clone this project
 
-```bash
+```zsh
 > git clone https://github.com/mhankbarbar/termux-whatsapp-bot
 > cd termux-whatsapp-bot
 
@@ -27,23 +27,23 @@ Clone this project
 
 Install the dependencies:
 
-```bash
+```zsh
 > npm i
 ```
 
 
 
 ### Usage
-1. run the Whatsapp bot
+run the Whatsapp bot
 
-```bash
+```zsh
 > npm start
 ```
 
 after running it you need to scan the qr
 
-### Fitur
-ketik !menu atau !help untuk menampilkan fitur
+### Features
+Type !menu or !help for show feature
 
 Feature | Status |
 | -------------- | ------------- |
@@ -53,15 +53,14 @@ Feature | Status |
 | Text to voivce | Oke |
 | Nhentai | Oke |
 | Horoscope menu | Oke |
-
-dll
+| And | Others |
 
 ### Owner Commands
 ( Only owner group! )
 
-› `!promote`: Menaikkan pangkat member menjadi admin 
-› `!demote`: Menurunkan pangkat admin menjadi member
-› `!kick`: Mengeluarkan member group
-› `!add`: Menambahkan member group
-› `!deskripsi`: Mengubah desc group
+› `!promote`: Menaikkan pangkat member menjadi admin<br>
+› `!demote`: Menurunkan pangkat admin menjadi member<br>
+› `!kick`: Mengeluarkan member group<br>
+› `!add`: Menambahkan member group<br>
+› `!deskripsi`: Mengubah desc group<br>
 › `!subject`: Mengubah title group
