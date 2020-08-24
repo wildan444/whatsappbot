@@ -1,4 +1,3 @@
-
 const fs = require("fs");
 const { tz } = require("moment-timezone");
 const qrcode = require("qrcode-terminal");
@@ -684,7 +683,7 @@ Season  : *${result.docs[0].season}*
 			});
 		}
 	})
-	/*} else if (msg.body.startsWith("!ytmp3 ")) {
+	} else if (msg.body.startsWith("!ytmp3 ")) {
 		var url = msg.body.split(" ")[1];
 		var videoid = url.match(/(?:https?:\/{2})?(?:w{3}\.)?youtu(?:be)?\.(?:com|be)(?:\/watch\?v=|\/)([^\s&]+)/);
 		const ytdl = require("ytdl-core")
@@ -699,36 +698,36 @@ Season  : *${result.docs[0].season}*
 			msg.reply("terlalu panjang.. ")
 		}else{
 			console.log(info.length_seconds)
-		msg.reply(" Tunggu sebentar kak .. Lagi di proses ☺");
-		var YoutubeMp3Downloader = require("youtube-mp3-downloader");
-		//Configure YoutubeMp3Downloader with your settings
-		var YD = new YoutubeMp3Downloader({
-    		"ffmpegPath": "/usr/bin/ffmpeg",
-    		"outputPath": "./mp3",    // Where should the downloaded and en>
-    		"youtubeVideoQuality": "highest",       // What video quality sho>
-    		"queueParallelism": 100,                  // How many parallel down>
-    		"progressTimeout": 40                 // How long should be the>
-		});
-		YD.download(videoid[1]);
-		YD.on("finished", function(err, data) {
-		var musik = MessageMedia.fromFilePath(data.file);
-		msg.reply(`
+			msg.reply(" Tunggu sebentar kak .. Lagi di proses ☺");
+			var YoutubeMp3Downloader = require("youtube-mp3-downloader");
+			//Configure YoutubeMp3Downloader with your settings
+			var YD = new YoutubeMp3Downloader({
+	    		"ffmpegPath": "/usr/bin/ffmpeg",
+    			"outputPath": "./mp3",    // Where should the downloaded and en>
+    			"youtubeVideoQuality": "highest",       // What video quality sho>
+    			"queueParallelism": 100,                  // How many parallel down>
+    			"progressTimeout": 40                 // How long should be the>
+			});
+			YD.download(videoid[1]);
+			YD.on("finished", function(err, data) {
+				var musik = MessageMedia.fromFilePath(data.file);
+				msg.reply(`
    Mp3 Berhasil di download
 
   ----------------------------------
 
 Nama File : *${data.videoTitle}*
 Nama : *${data.title}*
-Artis : *${data.
+Artis : *${data.artist}*
 
   ----------------------------------
 `);
-		chat.sendMessage(musik);
-		});
+			chat.sendMessage(musik);
+			});
 		YD.on("error", function(error) {
     		console.log(error);
 		});
-}});*/
+}});
 	} else if (msg.body.startsWith("!tts")) {
 		var fs = require('fs')
 		const ttsId = require('node-gtts')('id')
@@ -1047,9 +1046,8 @@ Ketikan *!rules* untuk melihat rules memakai bot ini
 ╰───────────
 
 `);
-}
-else if (msg.body == "!admin") {
- client.sendMessage(msg.from,  `
+	} else if (msg.body == "!admin") {
+ 		client.sendMessage(msg.from,  `
 ╭───「 Owner Only 」
 ├≽️ !subject
 ├≽️ !kick
@@ -1070,10 +1068,9 @@ else if (msg.body == "!admin") {
 » !deskripsi <optional> = Ganti deskripsi group!
 » !owner = Melihat siapa owner group!
  `);
- }
 
- else if (msg.body == "!menu1") {
- client.sendMessage(msg.from,  `
+	} else if (msg.body == "!menu1") {
+		client.sendMessage(msg.from,  `
 ╭───「 Menu 1 」
 ├≽ ️!randomanime
 ├≽️ !wait
@@ -1096,9 +1093,10 @@ else if (msg.body == "!admin") {
 » !covid = Menampilkan informasi covid-19 di indonesia
 » !getall = Tag all member dan admin group!
 `);
+
 /*
-else if (msg.body == "!menu2") {
- client.sendMessage(msg.from,  `
+	} else if (msg.body == "!menu2") {
+		client.sendMessage(msg.from,  `
 
 *!ytmp3* : Mendownload mp3 dari youtube
 contoh : !ytmp3 https://youtu.be/xUVz4nRmxn4
