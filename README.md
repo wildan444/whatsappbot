@@ -7,12 +7,12 @@ This is a bot , sure this is a bot !
 
 ## Getting Started
 
-This project require MQTT broker, nodeJS.
+This project require MQTT broker, nodeJS v10.22.0
 
 ### Install
 
 make sure u have installed ubuntu 18.04 in your termux , if you aren't install it 
-go install an Apps called *Andronix* on google play 
+go install an Apps called <b>Andronix</b> on <b>Google Play Store</b> 
 until you have ubuntu like this
 
 
