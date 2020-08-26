@@ -665,10 +665,10 @@ Season  : *${result.docs[0].season}*
 			msg.reply("Kode nuklir nya salah , coba perhatiin lagi")
 		}else{
 			var url = "https://t.nhentai.net/galleries/"+ g.media_id +"/cover.jpg"
-			var dl = "https://hdl.rurafs.me/download/nhentai/"+ g.id;
-			var teks = "Judul English  : "+ g.title.english.slice("0") +" \n \n Judul Japanese : "+ g.title.japanese +"\n \n Judul Pendek   : "+ g.title.pretty +"\n \n Kode Nuklir    : "+ g.id +" \n \n Download Link : "+ dl+"";
-			//exec('nhentai --id=' + g.id + ' -P mantap.pdf -o ./ --format=hentong/'+ g.id, (error, stdout, stderr) => {
-			exec('wget "' + dl + '" -O hentai/' + g.id + '.pdf', (error, stdout, stderr) => {
+			var teks = "Judul English  : "+ g.title.english.slice("0") +" \n \n Judul Japanese : "+ g.title.japanese +"\n \n Judul Pendek   : "+ g.title.pretty +"\n \n Kode Nuklir    : "+ g.id;
+                        // If you need use this feature, install module nhentai from https://pypi.org/project/nhentai/
+                        // This module using python 3 version okay!
+			exec('nhentai --id=' + g.id + ' -P mantap.pdf -o ./ --format=hentong/'+ g.id, (error, stdout, stderr) => {
 				let media = new MessageMedia('application/pdf','hentai/'+ g.id +'/mantap.pdf');
 				client.sendMessage(media);
 				if (error) {
