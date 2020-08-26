@@ -55,7 +55,7 @@ Feature | Status |
 | Instagram download | Oke |
 | WhatsAnime | Oke |
 | Brainly | Oke |
-| Text to voice | Oke |
+| Text to speech | Oke |
 | Nhentai | Oke |
 | Horoscope menu | Oke |
 | ytmp3 download | Oke |
