@@ -17,6 +17,11 @@ until you have ubuntu like this
 
 
 then ..
+Install chromium browser
+```zsh
+apt-get install chromium-browser && mv /usr/bin/chromium-browser /usr/bin/chromium
+```
+
 Clone this project
 
 ```zsh
