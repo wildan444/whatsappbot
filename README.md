@@ -20,7 +20,7 @@ go install
 then ..
 Install chromium browser
 ```zsh
-> apt-get sudo && sudo apt-get install chromium-browser && mv /usr/bin/chromium-browser /usr/bin/chromium
+> apt-get install sudo && sudo apt-get install chromium-browser && mv /usr/bin/chromium-browser /usr/bin/chromium
 ```
 
 Clone this project
