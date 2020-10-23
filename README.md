@@ -1,5 +1,5 @@
 ## Whatsapp Bot With Some Unique Features but it can running with termux
-[`whatsapp-web.js`](https://github.com/pedroslopez/whatsapp-web.js)
+[whatsapp-web.js](https://github.com/pedroslopez/whatsapp-web.js)
 ![Fork](https://img.shields.io/github/forks/mhankbarbar/termux-whatsapp-bot?style=social)
 
 
@@ -12,14 +12,15 @@ This project require MQTT broker, nodeJS v10.22.0
 ### Install
 
 make sure u have installed ubuntu 18.04 in your termux , if you aren't install it 
-go install an Apps called <b>Andronix</b> on <b>Google Play Store</b> 
-until you have ubuntu like this
-
+go install
+```zsh
+> pkg install proot-distro && proot-distro install ubuntu-18.04
+```
 
 then ..
 Install chromium browser
 ```zsh
-apt-get install chromium-browser && mv /usr/bin/chromium-browser /usr/bin/chromium
+> apt-get sudo && sudo apt-get install chromium-browser && mv /usr/bin/chromium-browser /usr/bin/chromium
 ```
 
 Clone this project
