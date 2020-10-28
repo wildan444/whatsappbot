@@ -941,12 +941,10 @@ Artis : *${data.artist}*
     	msg.body === "donasi ") {
     	// Send a new message to the same chat
     	client.sendMessage(msg.from, `
-Jika merasa bot ini bermanfaat boleh
-Bantu memperpanjang server bot nya
-dan agar tetap berjalan dan tidak error
+gausah donasi bro cuma buat have fun
 
-😊 Jika ingin membantu boleh langsung buka link ini
-https://saweria.co/donate/mhankbarbar
+😊 Jika ingin menghubungi admin boleh langsung klik
+wa.me/62895384315758
 `);
   	} else if (msg.body == "!rules" ||
     	msg.body === "rules ") {
@@ -1040,7 +1038,7 @@ bot ini
 _Hai kawan, sebelum memakai bot ini patuhi rules dulu ya ._
 Ketikan *!rules* untuk melihat rules memakai bot ini
 
-╭──「 List Menu 」
+╭──「 List Menu Bot Wildans 」
 ├≽️ !admin
 ├≽️ !menu1
 ├≽️ !menu2
